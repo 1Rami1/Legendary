@@ -38,3 +38,13 @@ header {
 .navigation a:hover {
     color: #601cfc;
 }
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+}
